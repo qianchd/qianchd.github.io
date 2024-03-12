@@ -1,0 +1,71 @@
+---
+title: Welcome
+comments: false
+sidebar: none
+name: Chengde Qian
+header:
+  - text: <span class="iconify" data-icon="tabler:phone"></span> (+86) 133-6501-9427
+  - text: <span class="iconify" data-icon="tabler:mail"></span> qianchd@gmail.com
+    link: mailto:qianchd@gmail.com
+  - text: <span class="iconify" data-icon="tabler:calendar-stats"></span> 1996.02.19.
+    link: https://github.com/qianchd
+  - text: <span class="iconify" data-icon="ic:outline-location-on"></span>  School of Statistics and Data Science, Nankai University, Tianjin 300071, P.R.China
+    newLine: true
+---
+
+## Education
+
+**School of Statistics and Data Science, Nankai University**
+  ~ Tianjin, China
+
+PhD in Statistics
+  ~ 09/2018 - 06/2024 (expected)
+
+**School of Mathematics, Nankai University**
+  ~ Tianjin, China
+
+Bachelor of Science in Statistics
+  ~ 09/2014 - 06/2018
+
+Bachelor of Economics in Finance
+  ~ 09/2014 - 06/2018
+
+## Research Interest
+
+
+## Experience
+
+**Teaching Assistant**，
+~ Nankai University
+~ 03/2020 – 06/2020
+- Course: Convex Optimization.
+
+**Research Intern**
+  ~ Bigdata Lab, Baidu
+  ~ 07/2021 – 09/2021
+- Topic: Online learning.
+
+**Research Intern**
+  ~ Microsoft Research Asia
+  ~ 12/2021 – 09/2022
+- Topic: Trustworthy Machine Learning including *Adversarial Robustness* and *Privacy*; Causal Discovery.
+
+
+## Publications
+[1]: **Qian, C.**, Tran-Dinh, Q., Fu, S., Zou, C., & Liu, Y. (2019). Robust multicategory support matrix machines. Mathematical Programming, 176, 429-463.
+[2]: Chen, J., Yu, H., **Qian, C.**, Chen, D. Z., & Wu, J. (2021). A receptor skeleton for capsule neural networks. In International Conference on Machine Learning (pp. 1781-1790). PMLR.
+[3]: **Qian, C.**, Jiang, H., Liang, D. (2024+). Tracking nonstationary streaming data via exponentially weighted moving average stochastic gradient descent. Journal of Systems Science & Complexity, *Accepted*.
+
+## Preprints
+[4]:	**Qian, C.**, Wang, G., Zou, C. (2024+). Reliever: relieving the burden of costly model fits for changepoint detection. *Submitted*.
+[5]:	**Qian, C.**, Wang, M., Ren, H., Zou, C. (2024+). ByMI: Byzantine machine identification with FDR control. *Submitted*.
+[6]:	**Qian, C.**, Li, M., Zou, C. (2024+). IHT-filtering: robust sparse estimation via robust dense gradient estimation. *Submitted*.
+
+
+## Awards and Honors
+
+National Scholarship for Doctoral Students (博士生国家奖学金), 2019
+
+Best Paper Award, National Statistics Graduate-Student Forum (全国高校研究生统计学论坛“十佳论文”), 2020
+
+Zhong Jiaqing Excellent Paper Award (钟家庆优秀论文奖，京津冀青年概率统计研讨会), 2023
