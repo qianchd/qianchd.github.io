@@ -17,7 +17,7 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>大学学术个人主页</title>
+  <title>Chengde Qian&#39;s Homepage</title>
   <meta property="og:type" content="website">
 <meta property="og:title" content="大学学术个人主页">
 <meta property="og:url" content="http://example.com/default-index/index.html">
@@ -104,12 +104,12 @@
         </li>
         
         
-        <li class="menu-item menu-item-archives">
+        <li class="menu-item menu-item-myposts">
           <a href="/archives">
             
             <i class="icon icon-archives-fill"></i>
             
-            <span class="menu-title">Archives</span>
+            <span class="menu-title">MyPosts</span>
           </a>
         </li>
         
@@ -140,16 +140,6 @@
             <i class="icon icon-project"></i>
             
             <span class="menu-title">Repository</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-books">
-          <a href="/books">
-            
-            <i class="icon icon-book-fill"></i>
-            
-            <span class="menu-title">Books</span>
           </a>
         </li>
         
@@ -201,7 +191,7 @@
   <div class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/latex-template/" rel="tag">latex, template</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/latex/" rel="tag">latex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/template/" rel="tag">template</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -211,7 +201,7 @@
   <div class="widget">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget-body tagcloud">
-      <a href="/tags/latex-template/" style="font-size: 13px;">latex, template</a>
+      <a href="/tags/latex/" style="font-size: 13px;">latex</a> <a href="/tags/template/" style="font-size: 13px;">template</a>
     </div>
   </div>
 
@@ -284,7 +274,7 @@
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/latex-template/" rel="tag">latex, template</a>
+	<a class="article-tag-link-link" href="/tags/latex/" rel="tag">latex</a>, <a class="article-tag-link-link" href="/tags/template/" rel="tag">template</a>
   </span>
 
 
@@ -303,7 +293,8 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h1 id="NKU-thesis-graduate2024"><a href="#NKU-thesis-graduate2024" class="headerlink" title="NKU_thesis_graduate2024"></a>NKU_thesis_graduate2024</h1><p>链接：<a target="_blank" rel="noopener" href="https://github.com/qianchd/NKU_thesis_graduate">github:NKU_thesis_graduate</a></p>
+        <h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>Github: <a target="_blank" rel="noopener" href="https://github.com/qianchd/NKU_thesis_graduate">NKU_thesis_graduate</a></p>
+<p>Overleaf: <a target="_blank" rel="noopener" href="https://www.overleaf.com/read/rytpskmrrhjc#f350c6">NKU_thesis_graduate</a></p>
 <h2 id="历史来源"><a href="#历史来源" class="headerlink" title="历史来源"></a>历史来源</h2><p>该毕业模板在互联网上有非常多版本，其最早的来源应是数学院<a target="_blank" rel="noopener" href="https://my.nankai.edu.cn/sms/swc/list.htm">孙文昌老师</a>制作的， 可惜原始的数院<a target="_blank" rel="noopener" href="http://222.30.48.141/~sunwch/">个人网页</a>已经无法访问。孙老师是早期<a target="_blank" rel="noopener" href="https://ctan.org/pkg/xecjk">xeCJK</a>包的作者，也基本是南开数学院学生LaTeX语言的启蒙人，大部分数学院本科生的LaTeX大概是孙老师的暑期小学期课程教授的。</p>
 <p>本仓库主要修改自南开大学图书馆发布的<a target="_blank" rel="noopener" href="https://libpaper.nankai.edu.cn/newlist.action?encid=58">2023年版本模板</a>，其来源也是陈所的学长提供。初始的第一个commit即为该版本。</p>
 <h2 id="本版本新特性"><a href="#本版本新特性" class="headerlink" title="本版本新特性"></a>本版本新特性</h2><p>现在的版本主要修改了如下几点：</p>
@@ -320,8 +311,8 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mkdir /usr/share/fonts/thesis/</span><br><span class="line">cd fonts</span><br><span class="line">cp *.ttc /usr/share/fonts/thesis/</span><br><span class="line">cp *.ttf /usr/share/fonts/thesis/</span><br><span class="line">sudo fc-cache -fv</span><br></pre></td></tr></table></figure>
 
 <h2 id="待办"><a href="#待办" class="headerlink" title="待办"></a>待办</h2><ul>
-<li><del>因Overleaf不支持商业化字体，目前仍未适配Overleaf.</del> —— 更新，当前版本支持overleaf上 pdflatex 编译，<a target="_blank" rel="noopener" href="https://www.overleaf.com/read/rytpskmrrhjc#f350c6">模板</a>；尚未支持XeLatex编译。</li>
-<li>XeLaTeX编译下有数十个warnings，PdfLaTeX下有十几个, 精力有限，待后来人改进。</li>
+<li>因Overleaf不支持商业化字体，目前仍未适配Overleaf上XeLaTeX编译。</li>
+<li>XeLaTeX编译下有数十个warnings，PdfLaTeX下有十几个, 精力有限。</li>
 <li>Proofreading: 目前授权书和原创性声明的格式和内容是否能通过校验。</li>
 </ul>
 
